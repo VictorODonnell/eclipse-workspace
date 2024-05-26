@@ -1,6 +1,10 @@
 
 public class AwesomeJavaProgram {
 
+	public static void burp()
+	{
+		System.out.println("buurrrrrp");
+	}
 	public static void main(String[] args) {
 		//int is type of variable (Integer)
 		//myInt is name of variable (can be whatever name)
@@ -25,8 +29,11 @@ public class AwesomeJavaProgram {
 		
 		
 		//need to remember System.out.println();
+		//Can add any function in such as calling myName 
 		System.out.println(myName.length());
-			
+		
+		burp();
+		
 	}
 
 }
