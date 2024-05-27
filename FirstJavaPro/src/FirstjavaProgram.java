@@ -1,16 +1,10 @@
+public class Main {
+    public static void main(String[] args) {
+        System.out.println(reverseString("hello")); // should print "olleh"
+        System.out.println(reverseString("world")); // should print "dlrow"
+    }
 
-public class FirstjavaProgram {
-
-	public static void main(String[] args) {
-		
-		int num1 = 7;
-		int num2 = 5;
-		
-		int total = num1 * num2;
-		
-		System.out.println(total);
-				
-
-	}
-
+    public static String reverseString(String input) {
+        
+    }
 }

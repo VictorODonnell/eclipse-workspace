@@ -1,6 +1,7 @@
 
 public class AwesomeJavaProgram {
 
+	//method declaration 
 	public static void burp()
 	{
 		System.out.println("buurrrrrp");
@@ -30,7 +31,7 @@ public class AwesomeJavaProgram {
 		
 		//need to remember System.out.println();
 		//Can add any function in such as calling myName 
-		System.out.println(myName.length());
+		System.out.println(shoeSize + myInt);
 		
 		burp();
 		
